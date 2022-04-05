@@ -26,28 +26,40 @@
       opacity: 0.9;
     }
   </style>
+  <marquee direction="left">
+    <h1>Employee portal Login</h1>
+  </marquee>
+  <hr />
+  <label for="uname"><b>UserName</b></label>
+  <input type="text" placeholder="Enter UserName" name="uname" required />
 
-  <form action="Menu.html">
-    <marquee direction="left">
-      <h1>Employee portal Login</h1>
-    </marquee>
-    <hr />
-    <label for="uname"><b>UserName</b></label>
-    <input type="text" placeholder="Enter UserName" name="uname" required />
+  <label for="psw"><b>Password</b></label>
+  <input type="password" placeholder="Enter Password" name="psw" required />
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required />
+  <label>
+    <input
+      type="checkbox"
+      checked="checked"
+      name="remember"
+      style="margin-bottom:15px"
+    />
+    Remember me
+  </label>
+  <button type="button" class="cancelbtn">Cancel</button>
+  <button type="submit" class="loginbtn">Login</button>
 
-    <label>
-      <input
-        type="checkbox"
-        checked="checked"
-        name="remember"
-        style="margin-bottom:15px"
+  <a class="menu" target="_blank" rel="noopener" href="frame.html">
+    <svg
+      class="material-icons"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"
       />
-      Remember me
-    </label>
-    <button type="button" class="cancelbtn">Cancel</button>
-    <button type="submit" class="loginbtn">Login</button>
-  </form>
+    </svg>
+    <span>Menu</span></a
+  >
 </html>
